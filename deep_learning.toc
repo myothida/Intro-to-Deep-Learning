@@ -1,0 +1,122 @@
+\contentsline {chapter}{Contents}{4}{section*.1}%
+\contentsline {chapter}{\chapternumberline {1}Introduction to Deep Learning}{11}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Mathematics for Deep Learning}{12}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Artificial Neural Networks}{12}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Feedforward Neural Networks}{12}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Different Deep Learning Algorithms}{13}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Convolutional Neural Network}{13}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Recurrent Neural Network}{13}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Long Short-Term Memory (LSTM)}{14}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Generative Adversarial Network}{14}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Introduction to Python Environment}{15}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Getting started with Google Colab}{15}{subsection.1.4.1}%
+\contentsline {subsubsection}{\textbf {Open a new Colab notebook}}{15}{section*.4}%
+\contentsline {subsubsection}{\textbf {Running a Cell}}{15}{section*.7}%
+\contentsline {subsubsection}{\textbf {Example Code}}{18}{section*.9}%
+\contentsline {section}{\numberline {1.5}Knowledge Test}{19}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Supervised or Unsupervised?}{19}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Regression, Classification or Clustering}{19}{subsection.1.5.2}%
+\contentsline {chapter}{\chapternumberline {2}Regression}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Linear Regression}{23}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Simple Linear Regression}{23}{subsection.2.1.1}%
+\contentsline {subsubsection}{\textbf {Cost Function}}{25}{section*.13}%
+\contentsline {subsection}{\numberline {2.1.2}Multiple Linear Regression}{26}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Feature Scaling}{27}{subsection.2.1.3}%
+\contentsline {subsubsection}{\textbf {Min-Max Scaling}}{27}{section*.14}%
+\contentsline {subsubsection}{\textbf {Z-score Standardization}}{28}{section*.15}%
+\contentsline {subsection}{\numberline {2.1.4}Assumptions}{29}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Knowledge Test}{30}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Gradient Descent Method}{31}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Knowledge Test}{32}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Polynomial Regression}{34}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Multiple Features}{35}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Implementation}{36}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Hyper-parameter}{37}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Knowledge Test}{38}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Model Implementation}{39}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Data Preparation}{39}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Data Splitting: Train-Test Split}{40}{subsection.2.4.2}%
+\contentsline {subsubsection}{\textbf {Train-Test Split in Python}}{40}{section*.20}%
+\contentsline {subsection}{\numberline {2.4.3}Data Modelling}{42}{subsection.2.4.3}%
+\contentsline {subsubsection}{\textbf {Linear Regression in Python}}{42}{section*.21}%
+\contentsline {subsubsection}{\textbf {Polynomial Regression in Python}}{43}{section*.22}%
+\contentsline {subsubsection}{\textbf {Pipeline}}{44}{section*.23}%
+\contentsline {section}{\numberline {2.5}Performance Evaluation}{46}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Mean Absolute Error}{46}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Mean Squared Error}{46}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}R2-score}{47}{subsection.2.5.3}%
+\contentsline {subsubsection}{\textbf {Case 1: $R^2 = 1$}}{47}{section*.25}%
+\contentsline {subsubsection}{\textbf {Case 2: $R^2 = 0$}}{47}{section*.27}%
+\contentsline {subsection}{\numberline {2.5.4}Implementation using Python}{49}{subsection.2.5.4}%
+\contentsline {subsubsection}{\textbf {Evaluating the Linear Model}}{49}{section*.29}%
+\contentsline {subsubsection}{\textbf {Evaluating the Polynomial Model}}{50}{section*.30}%
+\contentsline {subsubsection}{\textbf {Evaluating the Pipeline}}{51}{section*.31}%
+\contentsline {subsection}{\numberline {2.5.5}Cross-Validation}{52}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Bias and Variance Trade-off}{54}{subsection.2.5.6}%
+\contentsline {subsubsection}{\textbf {Bias}}{54}{section*.32}%
+\contentsline {subsubsection}{\textbf {Variance}}{54}{section*.33}%
+\contentsline {subsubsection}{\textbf {Bias Variance Trade-off}}{54}{section*.34}%
+\contentsline {section}{\numberline {2.6}Regularization}{55}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Lasso Regression}{55}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Ridge Regression}{56}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Lasso vs. Ridge}{57}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Hyper-Parameter Tuning}{58}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Project: Sale Amount Prediction}{60}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Data Importing}{60}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Train-Test-Split}{61}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Modeling and Hyper-Parameter Tuning}{62}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Model Evaluation}{63}{subsection.2.8.4}%
+\contentsline {chapter}{\chapternumberline {3}Classification}{64}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Performance Evaluation}{66}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Confusion Matrix}{66}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Accuracy}{69}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Precision}{69}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Recall (Sensitivity)}{71}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}True Negative Rate (Specificity)}{71}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}F-score}{71}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Area under the ROC (AUROC or AUC)}{72}{subsection.3.1.7}%
+\contentsline {section}{\numberline {3.2}Logistic Regression}{74}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Logistic Regression in Python}{77}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Hyper-parameters}{78}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}K Nearest Neighbors or k-NN}{79}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Distance Metrics in k-NN}{79}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Values of k in k-NN}{81}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}K-NN in Python}{81}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Support Vector Machine}{83}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Hyperplane}{83}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Decision boundary}{83}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Support Vectors}{83}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Margin}{84}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}SVM Kernels}{84}{subsection.3.4.5}%
+\contentsline {subsubsection}{\textbf {Linear Kernel}}{85}{section*.49}%
+\contentsline {subsubsection}{\textbf {Polynomial Kernel}}{85}{section*.50}%
+\contentsline {subsubsection}{\textbf {Radial Bias Function (RBF) kernel}}{87}{section*.51}%
+\contentsline {subsection}{\numberline {3.4.6}Hyper-parameters}{88}{subsection.3.4.6}%
+\contentsline {subsubsection}{\textbf {Kernel}}{88}{section*.53}%
+\contentsline {subsubsection}{\textbf {Regularization parameter (C)}}{88}{section*.54}%
+\contentsline {subsubsection}{\textbf {Degree (d)}}{88}{section*.55}%
+\contentsline {subsubsection}{\textbf {Kernel coefficient ($\gamma $)}}{89}{section*.56}%
+\contentsline {subsection}{\numberline {3.4.7}Linear SVM in Python}{90}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Polynomial Kernel SVM in Python}{91}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}RBF Kernel SVM in Python}{93}{subsection.3.4.9}%
+\contentsline {section}{\numberline {3.5}Naive Bayes Classifier}{94}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Bayes' Theorem}{94}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Naive Bayes classifier}{96}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Types of Naive Bayes Classifier}{97}{subsection.3.5.3}%
+\contentsline {subsubsection}{\textbf {Multinomial Naive Bayes}}{97}{section*.57}%
+\contentsline {subsubsection}{\textbf {Bernoulli Naive Bayes}}{97}{section*.58}%
+\contentsline {subsubsection}{\textbf {Gaussian Naive Bayes}}{97}{section*.59}%
+\contentsline {subsection}{\numberline {3.5.4}Implementation in Python}{98}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Project: Fraud Detection}{99}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Data Importing}{100}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Splitting the data}{100}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Modelling}{100}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Model Evaluation}{103}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Discussion on Performance}{105}{subsection.3.6.5}%
+\contentsline {subsubsection}{\textbf {Accuracy}}{105}{section*.61}%
+\contentsline {subsubsection}{\textbf {Recall}}{105}{section*.63}%
+\contentsline {subsubsection}{\textbf {Area under the Curve}}{106}{section*.65}%
+\contentsline {chapter}{\chapternumberline {4}Further Reading}{108}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mathematic Topics recommended by ChatGPT}{110}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Courses recommended by ChatGPT}{111}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Books recommended by ChatGPT}{112}{section.4.3}%

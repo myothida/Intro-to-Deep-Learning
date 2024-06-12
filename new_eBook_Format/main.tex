@@ -1,0 +1,163 @@
+\documentclass[12pt,a4paper,violet]{bbe}
+\usepackage{blindtext}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{csvsimple}
+\usepackage{tabularx}
+\setmainfont[Script=Myanmar]{Pyidaungsu}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+\title{Introduction to Deep Learning}
+\authors{Dr. Myo Thida } % Use \authors instead of \author due to your custom command
+%\date{Date Here}
+
+
+\begin{document}
+%\maketitle
+
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture,overlay]
+    \node at (current page.center) {\includegraphics[width=\paperwidth,height=\paperheight]{imgs/DL_cover3.png}};
+    %\includegraphics[width=\paperwidth]{imgs/DL_cover.png}
+\end{tikzpicture}
+
+\newpage
+\thispagestyle{empty}
+\vspace*{9cm}
+\begin{center}
+   \emph{\color{darkgray}This book is dedicated to my students over the years and to the brave youths of Myanmar, who have infused me with unwavering courage and energy, inspiring me to persevere.}
+\end{center}
+
+
+\newpage 
+\thispagestyle{empty}
+\vspace*{\fill}
+\small
+Copyright \textcopyright\ 2024 by VigorZwe Co. Ltd. All rights reserved.
+No part of this book may be reproduced or reprinted without permission in writing from the publisher or the author.
+\clearpage 
+\pagenumbering{roman}
+\setcounter{page}{1} % Reset page counter to 1
+
+\thispagestyle{empty}
+\include{preface}
+
+\thispagestyle{empty}
+\tableofcontents % Prints the table of contents
+
+
+\clearpage 
+\pagenumbering{arabic} % Switch to arabic page numbering for the main content
+\setcounter{page}{1}
+
+\include{chapter1}
+\clearpage
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+\bibliographystyle{unsrt} % We choose the "plain" reference style
+\bibliography{refs_deep}
+%\chapter{Title chapter 1}
+%
+%\section{section Title}
+%
+%\begin{definition}
+%    Hello world
+%\end{definition}
+%
+%\begin{remark}
+%    This is remark
+%\end{remark}
+%
+%\begin{example}
+%    this is example
+%\end{example}
+%
+%\chapter{Chapter Title Here}
+%% Chapter content goes here.
+%this is chapter
+%\section{Section Title Here}
+%% Section content goes here.
+%this is section
+%\subsection{Subsection Title Here}
+%% Subsection content goes here.
+%this is subsection
+%\subsubsection{Subsubsection Title Here}
+%% Subsubsection content goes here.
+%this is subsection
+%\begin{activity}
+%Your activity content here.
+%\end{activity}
+%
+%\begin{definition}
+%Your definition content here.
+%\end{definition}
+%
+%\begin{theorem}
+%Your theorem content here.
+%\end{theorem}
+%
+%\begin{example}
+%Your example content here.
+%\end{example}
+%
+%\begin{exercise}
+%Your exercise content here.
+%\end{exercise}
+%
+%\begin{generality}
+%Your generality content here.
+%\end{generality}
+%
+%\begin{property}
+%Your property content here.
+%\end{property}
+%
+%\begin{solution}
+%Your solution content here.
+%\end{solution}
+%
+%\begin{remark}
+%Your remark content here.
+%\end{remark}
+%
+%% Demonstration of customized lists
+%\begin{enumerate}[1] % Default numeric enumeration
+%    \item First item.
+%    \item Second item.
+%\end{enumerate}
+%
+%\begin{enumerate}[a] % Alphabetical enumeration
+%    \item First item.
+%    \item Second item.
+%\end{enumerate}
+%
+%\begin{itemize}[f1] % Custom itemize with specific symbol
+%    \item First item.
+%    \item Second item.
+%\end{itemize}
+%
+%\begin{itemize}[b] % Bullet points
+%    \item First bullet point.
+%    \item Second bullet point.
+%\end{itemize}
+%
+%% Example of a multicolumn enumeration
+%\begin{Enumerate}(2) % Two-column enumerate
+%    \item First item in two-column list.
+%    \item Second item in two-column list.
+%\end{Enumerate}
+%
+%% Custom tasks (similar to itemize or enumerate)
+%\begin{tasks}(2)
+% Two-column tasks
+%    \task First task.
+%    \task Second task.
+%\end{tasks}
+
+\end{document}
+
+\blinddocument

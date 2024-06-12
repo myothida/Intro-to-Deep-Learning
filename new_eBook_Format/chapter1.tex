@@ -1,0 +1,244 @@
+\chapter{Introduction to Deep Learning}
+\label{ch:intro}
+
+Deep learning, a subset of machine learning techniques, has revolutionized artificial intelligence (AI) in recent years. One prominent example of deep learning models is the Generative Pre-trained Transformer (GPT), which has attracted the attention not only of tech enthusiasts but also the general public. GPT models, like the ones developed by OpenAI \cite{web:chatgpt} , have demonstrated remarkable capabilities in natural language processing tasks, from text generation to translation, illustrating the transformative potential of deep learning.
+
+Rooted in the concept of artificial neural networks (ANNs), deep learning models are inspired by the structure and function of the human brain, enabling them to learn from vast amounts of data and perform complex tasks with remarkable accuracy. Unlike traditional machine learning algorithms that require handcrafted feature extraction, deep learning models automatically learn hierarchical representations of data through these layers, enabling them to discover patterns and relationships.
+
+However, this deep architecture introduces significant complexity, making it challenging to understand and optimize model performance. Additionally, deep learning models are resource-intensive, requiring substantial computational power for both training and inference. This requirement can limit their practical applicability, particularly in environments with limited computing resources or strict latency constraints.
+
+Moreover, deep learning models often struggle with interpretability, which makes it difficult to understand and trust their decisions. This issue is particularly concerning in high-stakes applications such as health care, finance, and autonomous driving, where decision-making transparency is crucial. For instance, in medical diagnostics, understanding why a model made a specific recommendation is essential for gaining trust from health care professionals and patients alike.
+
+\noindent
+\vskip  1.0em
+ယနေ့ခတ်တွင် လူအများစုက Deep learning နှင့်  Machine learning ကို နှိုင်းယှဥ်ပြောဆိုမှုများ ပြလုပ်လေ့ရှိကြပြီး Deep learning သည်  Machine learning ထက်သာသည်ဟု ပြောဆိုမှုများလည်း ရှိကြပါသည်။ သို့သော်လည်း Deep learning ဆိုသည်မှာ  Machine learning အမျိုးအစားတစ်ခုသာ ဖြစ်သည်။ မူလ traditional Machine learning များတွင် အားသာချက် ၊ အားနည်းချက်များ ရှိသကဲ့သို့ Machine learning  အမျိုးအစားတစ်ခုသာ ဖြစ်သည့် Deep learning model များတွင်လည်း အားသာချက်များ ၊ အားနည်းချက်များ ရှိပါသည်။ သို့သော် Deep learning model များသည် artificial intelligence (AI) လောကကို လူအများပိုမို စိတ်၀င်စားအောင် ဖန်တီးပေးခဲ့သည်မှာတော့ အမှန်ပင် ဖြစ်သည်။  ဥပမာ -- နည်းပညာသမားများသာမက နည်းပညာ နှင့် အလှမ်း၀ေးကွာသူများ၏ စိတ်၀င်စားမှုကိုပင် ရယူနိုင်ခဲ့သည့် ChatGPT အပါအ၀င် GPT model များသည် Deep Learning models များကို အခြေခံ၍ တည်ဆောက်ထားခြင်း ဖြစ်သည်။
+
+Deep learning Model များသည် လူသား ဦးဏှောက် များ၏ လုပ်ဆောင်ပုံကို နမူနာယူ၍ တည်ဆောက်ထားသော  artificial neural networks များကို အခြေခံထားသည်။ မူလ traditional machine learning algorithm များနှင့် နှိုင်းယှဥ်မည် ဆိုပါက Deep learning Model များ၏ အဓိက အားသာချက်မှာ အချက်အလက်များ၏ ဆက်နွယ်ပုံ နှင့် အရေးပါသည့် အချက်အလက်များကို algorithm ရေးသူမှ ရှာဖွေရမည့်အစား  အချက်အလက်အမြောက်အများကို အသုံးပြု၍ အလိုအလျောက်ရှာဖွေခြင်းဖြစ်သည်။ သို့သော် ထိုအချက်သည်ပင် Deep learning Model များ၏ အားနည်းချက် တစ်ခုလည်း ဖြစ်သည်။ Deep learning Model တစ်ခု တည်ဆောက်ရန်အတွက် အချက်အလက် အမြောက်အမြားလိုအပ်ပြီး computational Power မြင့်သည့် ကွန်ပြူတာများ ၊ ဆာဗာများကိုလည်း လိုအပ်သည်။ သို့ဖြစ်ရာ computing Power မြင့်သည့် ကွန်ပြူတာများ ၊ ဆာဗာများကို မတတ်နိုင်သည့် သူများအတွက် Deep learning Model တစ်ခုကို ကိုယ်ပိုင် တည်ဆောက်ရန် ခက်ခဲလှသည်။
+
+ထို့အပြင် Deep learning Model များ၏ အခြား ပြဿနာတစ်ခုမှာ မည်သည့်အတွက်ကြောင့် အဖြေမှန်(သို့မဟုတ်) ရလဒ်ကောင်းများ ရရှိသည်ကို တိတိကျကျ နားလည်ရန် နှင့် ရှင်းပြရန် မလွယ်ကူခြင်း ဖြစ်သည်။ သို့ဖြစ်ရာ  အသက်နှင့် လောင်းကြေးထပ်ရမည့် အလိုအလျောက် ကားမောင်းသည့် စနစ်များ၊ ကျန်းမာရေးဆိုင်ရာ ဆုံးဖြတ်ချက်များ နှင့် ငွေကြေးဆုံးရှုံးမှု မြင့်မားသည့် finance ကိစ္စရပ်များတွင် Deep learning Model များ၏ ဆုံးဖြတ်ချက်ကို သာမာန် နည်းပညာ အသုံးပြုသူများအနေဖြင့် အပြည့်အ၀ လက်ခံနိုင်ရန် ခက်ခဲနေဆဲဖြစ်သည်။
+
+
+\section{History of Deep Learning}
+\label{sec:history}
+The basic idea of deep learning dates back to the 1940s and 1950s when researchers began exploring the mathematical models of neurons. A significant advancement occurred in the 1980s with Yann LeCun's work, particularly his development of convolutional neural networks (CNNs) \cite{lecun1989}, which played a crucial role in pushing the boundaries of neural network research. Despite these advancements, the field faced considerable challenges, such as limited computational power and insufficient data, leading to a period of stagnation during the 1970s and 1980s.
+
+The breakthroughs that led to the modern era of deep learning began around the mid-2000s. The term ``deep learning" gained widespread recognition around 2012 when deep neural networks, particularly convolutional neural networks (CNNs)  \cite{krizhevsky2012ImageNet}, achieved ground-breaking performance in computer vision tasks, such as image classification, through competitions like the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) \cite{web:ILSVRC}.
+
+၁၉၄၀ ခုနှစ်များတွင် သုတေသနပညာရှင်များက လူသားများ၏ ဦးဏှောက်အတွင်းရှိ neuron များ အလုပ်လုပ်ပုံ၊ ဆုံးဖြတ်ချက်ချပုံများကို သင်္ချာ model များဖြင့် ဖော်ပြနိုင်ရန် ကြိုးစားခဲ့ကြခြင်းသည် Deep Learning ၏ အစပင် ဖြစ်သည်။
+သို့သော် ထိုကာလများတွင် သုတသနလုပ်ငန်းများ၏ အဓိက ရည်ရွယ်ချက်မှာ လူသားဦးဏှောက်နှင့် ပုံစံတူ မော်ဒယ်များ တည်ဆောက်ရန်  ဖြစ်သည်။ ၁၉၈၉ ခုနှစ်တွင် သုတေသနပညာရှင် Yann LeCun က convolutional neural networks (CNNs) ကို တီထွင်ခဲ့ရာမှ ၄င်းသုတေသနကို အခြားနယ်ပယ်များတွင်ပါ အသုံးပြုရန် ပိုမိုစိတ်၀င်စားလာခဲ့ကြသည်။ သို့သော် computing Power နှင့် ဒေတာ အချက်အလက်များ မလုံလောက်ခြင်းတို့ကြောင့် neural network ၏ သုတေသနမှာ ယာယီရပ်တန့်ခဲ့ရသည်။
+
+နှစ်စဥ်ကျင်းပလေ့ရှိသည့် ImageNet ခေါ် image များကို အမျိုးအစားခွဲခြားခြင်း ပြိုင်ပွဲ (၂၀၁၂ ခုနှစ်)တွင် Alex Krizhevsk နှင့် အဖွဲ့မှာ deep convolutional neural networks  ကို အသုံးပြုသည့် သုတေသန စာတမ်းငယ်ကို တင်ပြခဲ့သည်။ ထိုအချိန်မှ စတင်၍ deep learning (သို့မဟုတ်) deep neural networks များ၏ နံမည်သည် လူသိများလာခဲ့ပြီး artificial intelligence (AI) လောက တစ်ခေတ်ပြောင်းရာ တွင် အဓိက အရေးပါသည့် modelများ ဖြစ်လာပါသည်။
+
+%\begin{definition}
+%    Artificial Intelligence (AI) is the simulation of human intelligence in machines...
+%\end{definition}
+
+\section{Mathematics for Deep Learning}\label{mathsforDLL}
+It is crucial to have mathematical fundamentals to fully comprehend deep learning concepts. This section offers an overview of essential mathematical topics necessary for delving into deep learning algorithms. To fully grasp the content of this book on deep learning, it is essential for students to have a basic understanding of the following mathematical topics:
+
+\begin{itemize}
+  \item \textbf{Linear Algebra}: Linear algebra forms the foundation of many deep learning techniques. Concepts such as vectors, matrices, matrix operations (addition, multiplication), matrix factorization (e.g., Singular Value Decomposition), and eigenvalues/eigenvectors are important.
+  \item \textbf{Calculus}: Calculus plays a vital role in understanding optimization algorithms used in training deep learning models. Concepts like derivatives, gradients, chain rule, optimization techniques (e.g., gradient descent, stochastic gradient descent), and convex optimization are essential.
+  \item \textbf{Probability and Statistics}: Probability theory is important for understanding the uncertainty associated with data and predictions in deep learning models. Concepts like probability distributions (e.g., Gaussian distribution), expected value, variance, covariance, conditional probability, Bayes' theorem, and statistical inference are crucial.
+  \item \textbf{Graph Theory}: Graph theory is relevant for understanding neural network architectures and operations. Concepts like directed and undirected graphs, nodes, edges, adjacency matrices, and graph algorithms (e.g., breadth-first search, depth-first search) are important for understanding the structure and behavior of neural networks.
+\end{itemize}
+
+ဤစာအုပ်တွင်ပါရှိသည့် Deep Learning model များ၏ သဘောတရားကို အပြည့်အ၀ နားလည်နိုင်ရန် အထက်ပါ သင်္ချာ ခေါင်းစဥ်များကို ကြိုတင်လေ့လာထားသင်ပါ့သည်။ (မြန်မာနိုင်ငံတွင် အလယ်တန်း အဆင့်မှ စတင်၍ သင်္ချာဘာသာရပ်များကို အင်္ဂလိပ်ဘာသာဖြင့် သင်ကြားလာခဲ့သည် ဖြစ်ရာ အထက်ပါ ခေါင်းစဥ်များကို မြန်မာ ပြန်ဆိုခြင်း မပြုတော့ပါ။ အကယ်၍ လေ့လာရန် လိုအပ်မည်ဆိုပါက စာရေးသူ၏ \href{https://www.youtube.com/@drmyothida}{ Youtube channel } တွင် ၀င်ရောက် လေ့လာနိုင်ပါသည်။)
+
+
+\section{Python Frameworks for Deep Learning}\label{sec:python}
+
+While there are many programming languages to choose from, the ones widely used in deep learning include Python, R, C, and Java. Proficiency in programming languages is a fundamental skill in the journey of understanding deep learning. In this book, we will use Python \cite{web:python} to develop deep learning algorithms. Python is an open-source programming language; it is easy to learn, and there are plenty of libraries and frameworks specifically designed for machine learning and deep learning. In this book, we will introduce TensorFlow, Keras, and PyTorch frameworks.
+
+TensorFlow, Keras, and PyTorch are all powerful frameworks for machine learning and deep learning, each with unique strengths. TensorFlow is well-suited for production environments, Keras is ideal for beginners due to its simplicity, and PyTorch is excellent for research with its dynamic computation graph.
+
+\begin{remark}
+    In this book, I utilized both Jupyter Notebook within the Visual Studio Code (VS Code) editor \cite{web:VScode} and Google Colab \cite{web:googlecolab} for the exercises.
+
+    Jupyter Notebook \cite{web:jupyter} stands out as a favored tool among deep learning practitioners and professors due to its interactive environment, allowing users to write and execute code in a step-by-step manner. This feature proves invaluable for experimenting with deep learning models and visualizing results in real-time.
+
+    Visual Studio Code, among many Integrated Development Environments (IDE), provides a powerful and feature-rich platform for writing, debugging, and managing code. On the other hand, Google Colab is a free cloud service offered by Google, enabling you to run Jupyter Notebooks online without the need to install any IDE such as VS Code on your computer. Additionally, it provides access to Google's computing resources.
+
+    For the exercises presented in this book, you can access the code from the \href{https://github.com/myothida}{\textbf{GitHub}} repository or write it yourself to enhance your learning experience.
+\end{remark}
+
+Programming language များစွာရှိသော်လည်း deep learning တွင် ကျယ်ကျယ်ပြန့်ပြန့်အသုံးပြုသော  language များမှာ Python, R, C, နှင့် Java တို့ ဖြစ်သည်။ programming language များကို ကျွမ်းကျင်မှုရှိခြင်းသည် deep learning ကိုနားလည်သင်ယူရာတွင် ပို၍ လွယ်ကူစေသည်။ ဤစာအုပ်တွင် ပါရှိသော deep learning algorithm များကို ဖန်တီးရန် Python \cite{web:python} ကို အသုံးပြုမည်ဖြစ်သည်။ Python သည် open-source programming language တစ်ခုဖြစ်ပြီး လေ့လာရလွယ်ကူသည်နှင့်အတူ machine learning နှင့် deep learning အတွက် အထူးထုတ်လုပ်ထားသော library နှင့် framework မြောက်များစွာ ရှိပါသည်။
+ဤစာအုပ်တွင် TensorFlow, Keras, နှင့် PyTorch framework များကို မိတ်ဆက်ပေးသွားမည် ဖြစ်ပါသည်။
+
+TensorFlow၊ Keras နှင့် PyTorch Framework များသည် machine learning နှင့် deep learning အတွက် အလွန် အသုံး၀င်သော framework များ ဖြစ်ပြီး နေရာအသီးသီးတွင် အသုံးပြုနိုင်သည်။ TensorFlow သည် production level အတွက် အထူး သင့်လျော်ပြီး Keras သည် သင်ယူရန် လွယ်ကူသောကြောင့် အသစ်စတင်လေ့လာသူများအတွက် ကောင်းမွန်လှသည်။ PyTorch ကို သုတေသနနှင့် production level များတွင်လည်း အသုံးပြုသည်။
+
+
+\begin{remark}
+    Python code များရေးရန် Integrated Development Environment (IDE) များစွာရှိသော်လည်း   Jupyter Notebook \cite{web:jupyter} သည် deep learning လေ့လာသူများနှင့် သင်ကြားပေးသူ ဆရာ၊ ဆရာမ များ အကြား အများဆုံးရွေးချယ်ခြင်းခံရသော IDE တစ်ခု ဖြစ်သည်။ ဤစာအုပ်တွင် ပါဝင်သော လေ့ကျင့်ခန်းများအတွက် Jupyter Notebook ကို Visual Studio Code (VS Code) editor \cite{web:VScode} နှင့် Google Colab \cite{web:googlecolab} နှစ်ခုလုံးကို အသုံးပြု၍ ရေးသားထားသည်။  Google Colab \cite{web:googlecolab} သည် Google က ပံ့ပိုးပေးသော အခမဲ့ cloud service တစ်ခုဖြစ်သည်။
+    Jupyter Notebook များအား   Google ၏ computing resource များကို အသုံးပြု၍ အလွယ်တကူ run နိုင်သည်။
+
+    စာအုပ်တွင် ပါရှိသည့် လေ့ကျင့်ခန်းများကို စာရေးသူ၏ \href{https://github.com/myothida}{\textbf{GitHub}} လင့်တွင် download ရယူနိုင်ပါသည်။
+
+\end{remark}
+
+%\begin{example}
+%    \textbf{ The most effective way to learn any subject is through hands-on practice.}
+%\end{example}
+
+\subsection{TensorFlow} \label{subsec:Tensor}
+
+TensorFlow \cite{web:TensorFlow} is an open-source machine learning library developed by Google. It is widely used for machine learning and deep learning applications and allows users to build and train neural networks using data flow graphs. TensorFlow supports both Central processing unit (CPU) and Graphics processing unit (GPU) computing, making it efficient for large-scale machine learning tasks.
+
+\begin{remark}
+    TensorFlow is indeed highly suitable for production and large-scale projects.
+\end{remark}
+
+TensorFlow  \cite{web:TensorFlow} သည် Google မှ ဖန်တီးထားသော open-source deep learning framework တစ်ခုဖြစ်ပြီး machine learning နှင့် deep learning အတွက် အထူးသင့်တော်သည်။ TensorFlow framework တွင် data flow graph များအသုံးပြု၍  neural networks ကွန်ယက်များကို ဖန်တီးခြင်းနှင့်  model များကိုလည်း training ပြုလုပ်နိုင်သည်။
+
+\subsection{Keras}\label{subsec:Kerans}
+Keras \cite{web:Keras}, an open-source neural network library written in Python, was originally developed by François Chollet, a software engineer at Google. In 2017, the TensorFlow team decided to integrate Keras more tightly into TensorFlow, making it the official high-level API of TensorFlow 2.0. Since then, Keras has provided easy access to all TensorFlow functionalities while maintaining its user-friendly interface.
+
+\begin{remark}
+    Keras is highly suitable for the Beginners, and prototyping.
+\end{remark}
+
+Keras \cite{web:Keras} သည် Python ဖြင့် ရေးသားထားသော open-source neural network library တစ်ခု ဖြစ်သည်။ Google ၏ software engineer တစ်ဦးဖြစ်သူ  François Chollet မှ ရေးသားခဲ့ပြီး ၂၀၁၇ ခုနှစ်တွင် TensorFlow 2.0 ၏ တရား၀င်  high-level API အဖြစ် စတင်အသုံးပြုခဲ့သည်။ Keras ၏ User-friendly API သည် သင်ယူရလွယ်ကူပြီး ယခုမှ စတင်သင်ယူသူများအတွက် အထူးသင့်တော်သည်။
+
+\subsection{PyTorch} \label{subsec:PyTorch}
+
+PyTorch \cite{web:pyTorch} is an open-source deep learning framework developed by Meta AI (Facebook). It utilizes dynamic computation graphs, making it particularly suitable for research and production. It has gained significant popularity among researchers, practitioners, and industry professionals due to its powerful features, ease of use, and strong community support.
+
+\begin{remark}
+    PyTorch is suitable for research and production.
+\end{remark}
+
+PyTorch \cite{web:pyTorch} သည် Meta AI (Facebook) မှ ဖန်တီးထားသော open-source deep learning framework တစ်ခုဖြစ်ပြီး dynamic computation graphs ကို အသုံးပြုသည်။ PyTorch သည် သုတေသနနှင့် ထုတ်လုပ်မှုအတွက် အထူးပင် သင့်တော်သည်။ သုံးစွဲရန် လွယ်ကူခြင်း၊ community support ကောင်းမွန်ခြင်းများကြောင့် PyTorch သည် တနေ့တခြား ပိုမို တွင်ကျယ်လာသည်။
+
+\newpage
+\section{Applications of Deep Learning} \label{sec:usecases}
+
+The deep learning have led to its widespread adoption across a number of applications and different domains. Some prominent applications of deep learning include:
+
+\begin{itemize}
+  \item Computer Vision: Deep learning models have achieved human-level performance on tasks such as image classification, object detection, and image segmentation. Applications range from autonomous vehicles and medical imaging to facial recognition and surveillance systems.
+  \item Natural Language Processing: Deep learning techniques, including recurrent neural networks (RNNs) and transformers, have revolutionized the field of natural language processing (NLP). These models excel at tasks such as machine translation, sentiment analysis, text generation, and question answering.
+  \item Speech Recognition: Deep learning has enabled significant advancements in speech recognition systems, allowing for accurate and robust transcription of spoken language. Voice-controlled virtual assistants, speech-to-text transcription, and voice biometrics are just a few examples of applications powered by deep learning.
+\end{itemize}
+
+\vspace{2.5em}
+\noindent
+ယနေ့ခေတ်တွင် Deep learning model များ၏ အသုံး၀င်မှုမှာ ကျယ်ပြန့်လာပြီး အောက်ပါ နယ်ပယ် - ၃ ခုတွင် အများဆုံးအသုံးပြုကြသည်။
+
+\begin{itemize}[f2]
+  \item \textbf{Computer Vision} -- ဓါတ်ပုံများ၊ ဗွီဒီယိုများကို Input အဖြစ် အသုံးပြု၍ အချက်အလက်များ ရှာဖွေခြင်း၊ အဓိပ္ပာယ် ဖော်ဆောင်ခြင်း စသည့် လုပ်ငန်းစဥ်များ အားလုံးကို Computer Vision ဟု ခေါ်ဆိုခြင်း ဖြစ်သည်။ ဥပမာ - ယနေ့ ဖုန်းများတွင် အသုံးပြုသည့် Biometric recognition (မျက်နှာ၊ လက်ဗွေများကို အသုံးပြု၍ ဖုန်းဖွင့်ခြင်း) သည်  Computer Vision ၏ ဥပမာ တစ်ခုပင် ဖြစ်သည်။ Computer Vision ကိုအသုံးပြုသည့် အခြား Application များစွာရှိပြီး မောင်းသူမဲ့ ကားများ၊ ခန္ဓာကိုယ် အတွင်းရှိ ကိုယ်တွင်းကလီစာများ ဓါတ်မှန်ရိုက်ခြင်း ၊ ပုံရိပ်ယောင်များ ဖန်တီးခြင်း တို့မှာ လူအများ စိတ်၀င်စားသည့် Application များ ဖြစ်သည်။
+
+  \item \textbf{Natural Language Processing }-- ဘာသာစကားအမျိုးမျိုးဖြင့် ရေးသားသည့် စာသားများကို အဓိပွာယ်ဖွင့်ဆိုခြင်း၊ နောက်ကွယ်မှ ခံစားချက်ကို ရှာဖွေခြင်း၊ ဘာသာစကား တစ်ခုမှ တစ်ခုသို့ ဘာသာပြန်ဆိုခြင်း စသည့် လုပ်ငန်းစဥ်များသည် Natural Language Processing ခေါင်းစဥ်အောက်တွင် အကျုံး၀င်ပါသည်။ ယနေ့ ခေတ်တွင်   Deep learning technique များ (အထူးသဖြင့် recurrent neural networks (RNNs) နှင့် transformer) သည် အလျင်အမြန် တိုးတက်လာရာ မေးခွန်းများကို အလိုအလျောက် ဖြေကြားပေးခြင်း၊ စာကြောင်းအသစ်များ ဖန်တီးပေးခြင်း စသည့် လုပ်ငန်းများကိုလည်း ပြုလုပ်လာနိုင်သည်။ ဥပမာ -- ၂၀၂၂ ခုနှစ်တွင် စတင်ထုတ်၀ေခဲ့သည် ChatGPT \cite{web:chatgpt} သည် Natural Language Processing ၏ လူသိအများဆုံး Application တစ်ခုပင် ဖြစ်သည်။
+
+  \item \textbf{Speech Recognition} -- အသံကို  Input အဖြစ် အသုံးပြု၍ ပြောဆိုသူကို ခန့်မှန်းခြင်း၊ ပုံရိပ်များ ဖန်တီးခြင်း  နှင့် အသံမှ စာသားများ အဖြစ်ပြောင်းလဲ ပေးခြင်း စသည့် ခေတ်မီ နည်းပညာများသည်
+  Speech Recognition သုတေသန ကြောင့် ဖြစ်ပေါ်လာသည့် အကျိုးရလဒ်များပင် ဖြစ်သည်။
+
+\end{itemize}
+
+
+%\subsection{Summary of Frameworks} \label{subsec:Summary}
+%The following table summarizes the advantages and ideal use cases of above three framework:
+%
+%\begin{table*}[h]
+%\centering
+%\fontsize{9}{11}\selectfont
+%\caption{Snap-shot of the extracted skills for top three demanded job positions}
+%\label{T:Tskills}
+%\begin{tabularx}{0.96\linewidth}{|X|X|X|}
+%\hline
+%\textbf{Framework} & \textbf{Advantages} & \textbf{Ideal Use Cases} \\
+%\hline
+%&&\\
+%&&\\
+%&&\\
+%\hline
+%
+%\end{tabularx}
+%
+%\end{table*}
+
+\newpage
+
+\section{Chapter-End Exercises}\label{sec:exercises}
+
+This section, along with others throughout the chapters, offers chapter-end exercises aimed at reinforcing learning and assessing comprehension of the covered material. Readers are encouraged to attempt these exercises independently prior to checking solutions.
+
+\begin{question}
+    What is deep learning?
+\end{question}
+
+\begin{answer}
+    Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn from large amounts of data and make predictions or decisions.
+\end{answer}
+
+\begin{question}
+    How does deep learning differ from traditional machine learning?
+\end{question}
+
+\begin{answer}
+    Traditional machine learning algorithms require handcrafted features to be extracted from the data, while deep learning algorithms can automatically learn hierarchical representations of the data through multiple layers of abstraction.
+\end{answer}
+
+\begin{question}
+   What are some common applications of deep learning?
+\end{question}
+
+\begin{answer}
+    Deep learning is used in a wide range of applications, including computer vision (image recognition, object detection), natural language processing (language translation, sentiment analysis), speech recognition, autonomous vehicles, healthcare diagnostics, and more.
+\end{answer}
+
+\begin{question}
+   What are artificial neural networks (ANNs)?
+\end{question}
+\begin{answer}
+    Artificial neural networks are computational models inspired by the structure and function of biological neural networks in the human brain. They consist of interconnected nodes (neurons) organized into layers, with each layer performing specific computations.
+\end{answer}
+
+\begin{question}
+   What are some popular deep learning frameworks?
+\end{question}
+\begin{answer}
+    Some popular deep learning frameworks include TensorFlow, PyTorch, and Keras.
+\end{answer}
+
+%-----------------------------
+\newpage
+Chapter တစ်ခန်းချင်းစီ၏ အဆုံးတွင် chapter-end လေ့ကျင့်ခန်းများကို ထည့်သွင်းပေးသွားမည်ဖြစ်ပြီး အချို့ မေးခွန်းများအတွက်  အဖြေထည့်သွင်းပေးထားခြင်းမရှိပါ။ အဖြေပေးထားသည် ဖြစ်စေ မပေးထားသည်ဖြစ်စေ စာဖတ်သူများအနေဖြင့် ကိုယ်တိုင် ကြိုးစား၍ အဖြေရှာကြည့်ပြီးမှသာ အဖြေကို တိုက်ကြည့်ရန် တိုက်တွန်းပါသည်။
+
+\begin{question}
+    Deep learning ၏ အဓိပ္ပာယ်ကို ဖွင့်ဆိုပါ။
+\end{question}
+
+\begin{answer}
+    Deep learning ဆိုသည်မှာ  Machine learning အမျိုးအစားတစ်ခု ဖြစ်သည်။ လူသား ဦးဏှောက် များ၏ လုပ်ဆောင်ပုံကို နမူနာယူ၍ တည်ဆောက်ထားသည့် artificial neural networks များကို အခြေခံထားသည်။
+\end{answer}
+
+\begin{question}
+     Deep learning နှင့် မူလ machine learning များ၏ အဓိက ကွာခြားချက်ကို ဖော်ပြပါ။
+\end{question}
+
+\begin{answer}
+
+\end{answer}
+
+\begin{question}
+   Deep learning ကို အဓိက အသုံးပြုသည့် နယ်ပယ် (၃) ခု ကို ဖော်ပြပါ။
+\end{question}
+
+\begin{answer}
+    Deep learning ကို အဓိက အသုံးပြုသည့် နယ်ပယ် (၃) ခုမှာ  computer vision၊  natural language processing နှင့် speech recognition တို့ ဖြစ်သည်။
+\end{answer}
+
+\begin{question}
+   Artificial neural networks (ANNs) ၏ အဓိပ္ပာယ်ကို ဖွင့်ဆိုပါ။
+\end{question}
+
+\begin{answer}
+
+\end{answer}
+
+\begin{question}
+    လူသုံးများသည့် Deep learning framework (၃) ခုကို ဖော်ပြပါ။
+\end{question}
+\begin{answer}
+    လူသုံးများသည့် Deep learning framework (၃) ခုမှာ TensorFlow၊ PyTorch, နှင့် Keras တို့ ဖြစ်သည်။
+\end{answer} 

@@ -1,0 +1,9 @@
+\chapter{ Emerging Trends in Deep Learning}
+
+\subsection{Transfer Learning and Fine-Tuning}\label{sec:transfer}
+
+\subsection{Attention Mechanisms and Transformers}\label{sec:transfomers}
+
+\subsection{AutoML and Neural Architecture Search (NAS)}\label{sec:NAS}
+
+\subsection{Ethical Considerations and Bias in Deep Learning}\label{sec:ethic}

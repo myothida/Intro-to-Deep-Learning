@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% eBook
+% LaTeX Template
+% Version 1.0 (29/12/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Luis Cobo (luiscobogutierrez@gmail.com) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATIONS AND INFORMATION
+%----------------------------------------------------------------------------------------
+
+\documentclass[oneside,11pt]{memoir} % Font size
+
+\input{structure.tex} % Include the file that specifies the document structure and layout
+
+\title{Introduction to Deep Learning} % Book title
+\author{Dr Myo Thida} % Author
+\newcommand{\edition}{} % Book edition
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\thispagestyle{empty} % Suppress page numbering
+\ThisCenterWallPaper{1.5}{imgs/DL_cover2.png}
+
+\newpage % Make sure the following content is on a new page
+\begin{tikzpicture}[remember picture,overlay]
+\end{tikzpicture}
+
+\newpage
+\vspace*{5cm}
+% Sets a PDF bookmark for the dedication
+\pdfbookmark{Dedication}{dedication}
+\thispagestyle{empty}
+\begin{center}
+   \emph{This book is dedicated to my students over the years and to the brave youths of Myanmar, who have infused me with unwavering courage and energy, inspiring me to persevere.}
+\end{center}
+
+\newpage
+
+\vspace*{\fill}
+\small
+Copyright \textcopyright\ 2024 by VigorZwe Co. Ltd. All rights reserved.
+No part of this book may be reproduced or reprinted without permission in writing from the publisher or the author.
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Prints the table of contents
+
+%----------------------------------------------------------------------------------------
+%	PREFACE
+%----------------------------------------------------------------------------------------
+
+\include{preface}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER ONE
+%----------------------------------------------------------------------------------------
+
+\include{00_intro}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER TWO
+%----------------------------------------------------------------------------------------
+
+\include{01_regression}
+%----------------------------------------------------------------------------------------
+%	CHAPTER THREE
+%----------------------------------------------------------------------------------------
+
+\include{02_classification_V2}
+
+\include{03_further}
+
+\bibliographystyle{unsrt} % We choose the "plain" reference style
+\bibliography{refs}
+
+
+\end{document} 

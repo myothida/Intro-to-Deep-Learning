@@ -1,0 +1,51 @@
+SyncTeX Version:1
+Input:1:D:\09_Project_2024\05_DeepLearning_eBook\example.tex
+Input:2:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\Book.cls
+Input:3:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\bk12.clo
+Input:4:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\fontspec\fontspec.sty
+Input:5:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+Input:6:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+Input:7:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+Input:8:
+Input:9:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse-2020-10-01.sty
+Input:10:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse-generic.tex
+Input:11:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+Input:12:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+Input:13:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\fontspec\fontspec.cfg
+Input:14:D:\09_Project_2024\05_DeepLearning_eBook\example.aux
+Input:15:C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
+Output:pdf
+Magnification:1000
+Unit:1
+X Offset:0
+Y Offset:0
+Content:
+!1254
+{1
+[1,7:4736287,49095888:26214400,44359601,0
+(1,7:4736287,4736287:0,0,0
+)
+[1,7:5391647,49095888:25559040,42852273,0
+[1,7:5391647,7030047:25559040,786432,0
+(1,7:5391647,7030047:25559040,501888,0
+k1,7:30567839,7030047:25176192
+)
+]
+[1,7:5391647,47129808:25559040,38797312,0
+(1,7:5391647,9118928:25559040,734976,316031
+h1,6:5391647,9118928:1179648,0,0
+k1,7:30950687,9118928:17291136
+g1,7:30950687,9118928
+)
+]
+h1,7:5391647,49095888:25559040,0,0
+]
+]
+!450
+}1
+Input:16:D:\09_Project_2024\05_DeepLearning_eBook\example.aux
+!70
+Postamble:
+Count:24
+!24
+Post scriptum:
