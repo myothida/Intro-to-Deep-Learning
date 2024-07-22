@@ -1,0 +1,12 @@
+,Data Attributes,Column Name,Data Type,Description
+0,Month,month,,Month and Year of sale
+1,Town,town,Text,Designated residential area
+2,Flat type,flat_type,Text,Classification of units by room size.
+3,Block,block,Text,The Block number where the unit sold located
+4,Street name,street_name,Text,Stree name of the unit sold located
+5,Storey range,storey_range,Text,Estimated range of floors the unit sold was located on
+6,Floor area sqm,floor_area_sqm,Numeric,"Total interior space within the unit, measured in square meters"
+7,Flat model,flat_model,Text,Classification of units by generation
+8,Lease commence date,lease_commence_date,Numeric,Starting point of a lease agreement (Year)
+9,Remaining lease,remaining_lease,Text,Remaining amount of time left on the lease (Years and Months)
+10,Resale price,resale_price,Numeric,Resale Price of the flat sold
