@@ -8,7 +8,7 @@ I believe that hands-on learning is crucial for understanding, and thus, the exp
 
 1. **Log in to GitHub.**
 2. **Navigate to the Repository:**
-   - Go to [https://github.com/myothida/DeepLearning.git](https://github.com/myothida/Intro-to-Deep-Learning.git).
+   - Go to [https://github.com/myothida/Intro-to-Deep-Learning.git](https://github.com/myothida/Intro-to-Deep-Learning.git).
 3. **Fork the Repository:**
    - In the top-right corner of the page, click `Fork`.
    - This will create a copy of the repository under your GitHub account.
