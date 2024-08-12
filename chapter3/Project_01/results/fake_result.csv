@@ -1,0 +1,11 @@
+ResNet50,VGGNet16,InceptionV3,ConvNeXt,EfficientNet,ResNet50_prob,VGGNet16_prob,InceptionV3_prob,ConvNeXt_prob,EfficientNet_prob,label
+tricycle,tricycle,clog,bicycle-built-for-two,tricycle,0.8468541,0.19207753,0.5929041,0.2544364,0.81798655,bicycle
+pinwheel,jellyfish,flatworm,sulphur-crested_cockatoo,bee_eater,0.6991526,0.1741677,0.9999999,0.5696194,0.3535776,bird
+pinwheel,bubble,flatworm,bubble,lacewing,0.49099445,0.22225265,0.89688516,0.59243435,0.64868724,butterfly
+laptop,tabby,web_site,tabby,Persian_cat,0.39526895,0.20779778,1.0,0.28784898,0.49992585,cat
+hen,cock,stopwatch,hen,hen,0.50244856,0.67628247,0.58571535,0.7616029,0.6226044,chicken
+tennis_ball,golden_retriever,flatworm,tennis_ball,golden_retriever,0.9188617,0.57009184,0.9271688,0.27181837,0.6039146,dog
+alp,sorrel,flatworm,carousel,alp,0.37877044,0.21419549,0.9859701,0.5968312,0.3835706,horse
+vase,pot,web_site,necklace,coil,0.1603659,0.3724951,0.79714996,0.24575679,0.14973381,rose
+balloon,Arctic_fox,clog,Arctic_fox,Arctic_fox,0.09864314,0.15921089,0.99435955,0.28604937,0.1484544,sheep
+picket_fence,balloon,flatworm,picket_fence,picket_fence,0.99313366,0.29854703,0.9999573,0.92295045,0.7755485,woman

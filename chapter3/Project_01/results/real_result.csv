@@ -1,0 +1,11 @@
+ResNet50,VGGNet16,InceptionV3,ConvNeXt,EfficientNet,ResNet50_prob,VGGNet16_prob,InceptionV3_prob,ConvNeXt_prob,EfficientNet_prob,label
+moped,moped,stopwatch,moped,moped,0.805327,0.42418775,1.0,0.8275123,0.65036637,bike
+bee_eater,house_finch,web_site,bee_eater,bee_eater,0.5294946,0.9620291,0.9999995,0.9265928,0.73384947,bird
+cabbage_butterfly,cabbage_butterfly,web_site,ringlet,ringlet,0.6061604,0.7725928,1.0,0.92665017,0.75695807,butterfly
+tabby,tabby,web_site,Egyptian_cat,Egyptian_cat,0.65129435,0.4806464,0.9998086,0.77956736,0.45926112,cat
+hen,hen,pencil_sharpener,hen,hen,0.9908562,0.96126205,0.8581824,0.8891141,0.697963,chicken
+wire-haired_fox_terrier,German_shepherd,web_site,toy_terrier,kelpie,0.16790663,0.1480213,0.999979,0.47487274,0.30530512,dog
+tray,pitcher,clog,hair_slide,lampshade,0.4164338,0.14067936,0.86001575,0.29182574,0.49116385,flower
+hartebeest,hartebeest,vase,sorrel,hartebeest,0.4948275,0.87576646,0.47337037,0.2562029,0.62733895,horse
+ram,ram,web_site,hog,ram,0.7591789,0.72313285,0.8568908,0.76543367,0.41133055,sheep
+sombrero,ice_lolly,saltshaker,tennis_ball,sombrero,0.6405327,0.06981858,0.9994742,0.32150903,0.14388649,woman
