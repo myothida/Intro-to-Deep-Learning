@@ -1,0 +1,6 @@
+,Train,Test
+Root Mean Squared Error,55026.6102,55316.7127
+Mean Absolute Error,39621.272,39797.346
+Mean Absolute Percentage Error,6.44,6.4809
+R2 Score,0.9258,0.925
+Training Time (seconds),62.7032,62.7032
